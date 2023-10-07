@@ -24,7 +24,7 @@ class clsGeneral(object):
 # Iterate through rows
 # Read the CSV file into a DataFrame and list the file details for IN/OUT files.
 #replace the path below with your file.
-uFile=r'K:\2023\SimulatedSSOs_study\HCAD_Dataset\FilesTobeProcessed.csv'
+uFile=r'FilesTobeProcessed.csv' #replace your file with list of the three fields as requried in the loop below.
 csvFileList = pd.read_csv(uFile)
 uCSVinfo = pd.DataFrame(csvFileList)
 #print(csvFileList)
